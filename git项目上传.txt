@@ -1,0 +1,48 @@
+Please tell me who you are.
+$ git config --global user.name "zzzhezheyo"
+git config --global user.email	"810884502@qq.com"
+
+新建空文件夹
+
+第一次
+git init
+
+git add .	//.、-A代表所有
+git add -A
+git add README.md
+
+git commit -m "first commit"	//-m信息，代表本次干啥了
+
+git remote add origin https://github.com/zzzhezheyo/pro-1809.git //源设为线上仓库
+
+git push -u origin master
+
+已存在
+git remote add origin https://github.com/panruoliangren/1809.git
+git push -u origin master
+
+
+分支：
+默认master分支
+新建分支：git branch dev(<name>)
+切换分支：git checkout name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
